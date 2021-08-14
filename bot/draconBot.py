@@ -10,7 +10,7 @@ from src.console import *
 
 # Variables
 
-version = 1.0
+version = 1.1
 
 # Main
 
