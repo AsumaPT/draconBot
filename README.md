@@ -24,7 +24,7 @@ Navigate to the directory and execute the `setup.bat`.
   *   **canvas** [required] - Select the canvas that u want to draw. (world, art)
   *   **coordX** [required] - X axis where u want to begin. (Ex: -30)
   *   **coordY** [required] - Y axis where u want to begin. (Ex: 324)
-  *   **image** [required] - Select the image that u want do draw. (Ex: sexo.png)
+  *   **image** [required] - Select the image that u want do draw. (Ex: sexo.png / needs to be in image folder) 
   *   **strategy** [optional] - Select the order of pixel placement. (Default: linear)
     * *list* : (linear, random, columns, lines, diagonal, spiral, linear-random, diagonal-right, horizontal, circle and zigzag)
   *   **options** [optional] - Changes somethings in the bot. (reverse)
