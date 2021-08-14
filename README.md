@@ -6,14 +6,14 @@ We do not take responsibility if you are banned!
 
 # Instalation
 
-## get python
+### get python
 Install python in [here](https://www.python.org/downloads/).
 All versions from python 3 tested and working.
 
-## Bot zip archive (latest version)
+### Bot zip archive (latest version)
 Download latest file [here](https://github.com/AsumaPT/draconBot/releases/).
 
-## Setup bot
+### Setup bot
 Navigate to the directory and execute the `setup.bat`.
 
 # Usage
