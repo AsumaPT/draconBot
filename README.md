@@ -2,7 +2,7 @@
 
 This is a bot for the website https://pixworld.vercel.app/
 Please use it carefully since bots are only allowed in antartica.
-We do not take responsibility if you are banned!
+We do not take responsibility if you get banned!
 
 # Instalation
 
