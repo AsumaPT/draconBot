@@ -43,20 +43,4 @@ except:
 time.sleep(2)
 clear()
 startTemplate(canvas, x, y, template, strategy, option=None)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
