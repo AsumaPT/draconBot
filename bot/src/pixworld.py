@@ -48,7 +48,6 @@ def placePixel(ws, world, x, y, color):
 			return cooldown
 			break
 		elif data['type'] == "refusePixel":
-			print(data)
 			printRefuse(x, y, color)
 			break
 		elif data['type'] == "captchaNeeded":
