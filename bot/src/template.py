@@ -88,6 +88,8 @@ def startTemplate(world, x, y, templat, strat, option=None):
 	printCalculating()
 	if strat == "random":
 		pixelStack = randomizar(pixelStack)
+	elif strat == "linear":
+		pass
 	elif strat == "columns":
 		pixelStack = columns(pixelStack)
 	elif strat == "checkers":
@@ -112,10 +114,12 @@ def startTemplate(world, x, y, templat, strat, option=None):
 	count = 0
 	
 	if option == "reverse" or option == "reversed" or option == "inverted" or option == "invert":
-		print("asdasdas")
 		pixelStack = pixelStack[::-1]
-	rpc = richPresence()
-	threading.Thread(target=loopPrecense, args=(rpc, templat, strat)).start()
+	try:
+		rpc = richPresence()
+		threading.Thread(target=loopPrecense, args=(rpc, templat, strat)).start()
+	except: 
+		pass
 	while(len(pixelStack) > 0):
 		i = pixelStack[0]
 		x = i[0]
