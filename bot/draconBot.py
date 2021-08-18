@@ -37,10 +37,8 @@ except:
 try:
 	option = sys.argv[6]
 except:
-	pass
-
+	option = None
 
 time.sleep(2)
 clear()
-startTemplate(canvas, x, y, template, strategy, option=None)
-    
+startTemplate(canvas, x, y, template, strategy, option)
