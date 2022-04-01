@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/AsumaPT/draconBot/main/canvas_pt.png";
-            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px; opacity: 0.75";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px; opacity: 0.85";
             console.log(i);
             return i;
         })())
