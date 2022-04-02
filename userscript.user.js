@@ -34,7 +34,7 @@ if (window.top !== window.self) {
                 } else {
 
                     img.setAttribute("vis",1)
-                    img.style.opacity  = 1
+                    img.style.opacity  = 0.75
                 }
             }
             console.log(i);
