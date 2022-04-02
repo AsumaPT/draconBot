@@ -30,11 +30,11 @@ if (window.top !== window.self) {
                 const img = document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.querySelector("#mcss-overlay")
                 if (img.getAttribute("vis") == "1") {
                     img.setAttribute("vis",0)
-                    img.style.opacity  = 0
+                    img.style.opacity = 0
                 } else {
 
                     img.setAttribute("vis",1)
-                    img.style.opacity  = 1
+                    img.style.opacity = 1
                 }
             }
             console.log(i);
