@@ -13,7 +13,7 @@ if (window.top !== window.self) {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://raw.githubusercontent.com/devpt-org/draconBot/dev/canvas_pt.png";
+            i.src = "https://raw.githubusercontent.com/devpt-org/draconBot/dev/canvas_pt_jola.png";
             i.style = "position: absolute;left: 0;top: 0px;image-rendering: pixelated;width: 2000px;height: 2000px";
             i.id = "mcss-overlay"
             i.setAttribute("vis",1)
