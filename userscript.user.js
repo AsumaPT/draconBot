@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Portugal Overlay
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.4
 // @description  Orgulho tuga!
 // @author       r/Portugal
 // @match        https://hot-potato.reddit.com/embed*
@@ -16,7 +16,7 @@ if (window.top !== window.self) {
                 Date.now = function() { return new Date().getTime(); }
             }
             const i = document.createElement("img");
-            i.src = "https://github.com/devpt-org/draconBot/raw/dev/canvas.png?" + Date.now();
+            i.src = "https://raw.githubusercontent.com/devpt-org/draconBot/main/canvas_pt.png";
             i.style = "position: absolute;left: 0;top: 0px;image-rendering: pixelated;width: 2000px;height: 2000px";
             i.id = "mcss-overlay"
             i.setAttribute("vis",1)
