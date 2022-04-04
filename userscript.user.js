@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Portugal Overlay
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.5
 // @description  Orgulho tuga!
-// @author       Some anon
+// @author       r/Portugal
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://i.pinimg.com/originals/bb/28/f0/bb28f08db88265208c7329474998d8a5.png
 // @grant        none
@@ -12,9 +12,12 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
+            if (!Date.now) {
+                Date.now = function() { return new Date().getTime(); }
+            }
             const i = document.createElement("img");
-            i.src = "https://raw.githubusercontent.com/AsumaPT/draconBot/main/canvas_pt.png";
-            i.style = "position: absolute;left: 0;top: 0px;image-rendering: pixelated;width: 2000px;height: 1000px";
+            i.src = "https://github.com/devpt-org/draconBot/raw/dev/canvas.png" + Date.now();
+            i.style = "position: absolute;left: 0;top: 0px;image-rendering: pixelated;width: 2000px;height: 2000px";
             i.id = "mcss-overlay"
             i.setAttribute("vis",1)
             console.log(i);
